@@ -21,7 +21,7 @@ public class Problem4 {
                 if (product < largestPalindrome) {
                     break;
                 }
-                
+
                 if (isPalindrome(product)) {
                     largestPalindrome = product;
                     break;
