@@ -1,24 +1,46 @@
-// Largest prime factor
-//        Problem 3
-//        The prime factors of 13195 are 5, 7, 13 and 29.
+// Largest palindrome product
+//        Problem 4
+//        A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
 //
-//        What is the largest prime factor of the number 600851475143 ?
+//        Find the largest palindrome made from the product of two 3-digit numbers.
 
 public class Problem4 {
     public static String solve() {
-        long number = 600851475143L;
-        long largestPrimeFactor = divideBySmallestPrimeFactor(number);
+        int largestPalindrome = 0;
+        for (int i = 999; i > 99; i--) {
 
-        return "The largest prime factor of the number 600851475143 is " + largestPrimeFactor + ".";
-    }
+            // if there's no way the product is larger, let's return early
+            if (i*999 < largestPalindrome) {
+                break;
+            }
 
-    // recursively divides by the smallest prime factor until the input param is a prime
-    private static long divideBySmallestPrimeFactor(long number) {
-        for (long factor = 2, end = (long) Math.sqrt(number); factor <= end; factor++) {
-            if (number % factor == 0) {
-                return divideBySmallestPrimeFactor(number / factor);
+            for (int j = i; j > 99; j--) {
+                int product = i * j;
+
+                // if the product is not larger, let's return early
+                if (product < largestPalindrome) {
+                    break;
+                }
+                
+                if (isPalindrome(product)) {
+                    largestPalindrome = product;
+                    break;
+                }
             }
         }
-        return number;
+
+        return "The largest palindrome made from the product of two 3-digit numbers is " + largestPalindrome + ".";
+    }
+
+    private static boolean isPalindrome(Integer product) {
+        String productString = product.toString();
+        int length = product.toString().length();
+        int backward = length - 1;
+        for (int forward = 0; forward <= Math.floorDiv(length, 2); forward++, backward--) {
+            if (productString.charAt(forward) != productString.charAt(backward)) {
+                return false;
+            }
+        }
+        return true;
     }
 }
