@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f131292-ad08-4c17-b226-b5010329f89c" name="Default" comment="" />
+    <list default="true" id="9f131292-ad08-4c17-b226-b5010329f89c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Problem4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProjectEuler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProjectEuler.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +26,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="ProjectEuler.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProjectEuler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ProjectEuler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="120">
+              <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
               <folding>
                 <element signature="e#0#251#0" expanded="true" />
               </folding>
@@ -56,13 +59,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Problem3.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Problem3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Problem3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="88" selection-start-line="14" selection-start-column="88" selection-end-line="14" selection-end-column="88" />
+            <state relative-caret-position="90">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding>
                 <element signature="e#0#528#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem4.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Problem4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#0#863#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,8 +132,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Problem2.java" />
         <option value="$PROJECT_DIR$/src/main/java/Problem638.java" />
         <option value="$PROJECT_DIR$/src/main/java/Problem630.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ProjectEuler.java" />
         <option value="$PROJECT_DIR$/src/main/java/Problem3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Problem4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ProjectEuler.java" />
       </list>
     </option>
   </component>
@@ -300,12 +316,12 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936507" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936507" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -376,22 +392,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ProjectEuler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Problem3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding>
-            <element signature="e#0#251#0" expanded="true" />
+            <element signature="e#0#528#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Problem3.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Problem4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="88" selection-start-line="14" selection-start-column="88" selection-end-line="14" selection-end-column="88" />
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
-            <element signature="e#0#528#0" expanded="true" />
+            <element signature="e#0#863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ProjectEuler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#251#0" expanded="true" />
           </folding>
         </state>
       </provider>
