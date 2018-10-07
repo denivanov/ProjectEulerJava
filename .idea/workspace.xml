@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f131292-ad08-4c17-b226-b5010329f89c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Problem3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Problem3.java" afterDir="false" />
-    </list>
+    <list default="true" id="9f131292-ad08-4c17-b226-b5010329f89c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
