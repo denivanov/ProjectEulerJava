@@ -12,10 +12,11 @@ public class Problem3 {
         return "The largest prime factor of the number 600851475143 is " + largestPrimeFactor + ".";
     }
 
+    // recursively divides by the smallest prime factor until the input param is a prime
     private static long divideBySmallestPrimeFactor(long number) {
-        for (long start = 2, end = (long) Math.sqrt(number); start <= end; start++) {
-            if (number % start == 0) {
-                return divideBySmallestPrimeFactor(number / start);
+        for (long factor = 2, end = (long) Math.sqrt(number); factor <= end; factor++) {
+            if (number % factor == 0) {
+                return divideBySmallestPrimeFactor(number / factor);
             }
         }
         return number;
