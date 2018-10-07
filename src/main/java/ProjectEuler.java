@@ -17,6 +17,10 @@ public class ProjectEuler {
         lines.add("Problem 2 solution: " + Problem2.solve());
         lines.add("Problem 3 solution: " + Problem3.solve());
         lines.add("Problem 4 solution: " + Problem4.solve());
+        lines.add("Problem 5 solution: " + Problem5.solve());
+        lines.add("Problem 6 solution: " + Problem6.solve());
+        lines.add("Problem 7 solution: " + Problem7.solve());
+        lines.add("Problem 8 solution: " + Problem8.solve());
         
         Path file = Paths.get("ProjectEulerSolutions.txt");
         Files.write(file, lines, Charset.forName("UTF-8"));
