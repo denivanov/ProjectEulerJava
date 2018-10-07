@@ -7,11 +7,13 @@
 public class Problem1 {
     public static String solve() {
         int sum = 0;
+
         for (int multiple = 0; multiple < 1000; multiple++) {
             if (multiple % 3 == 0 || multiple % 5 == 0) {
                 sum += multiple;
             }
         }
-        return "The sum of all the multiples of 3 or 5 below 1000 is "+ sum + ".";
+
+        return "The sum of all the multiples of 3 or 5 below 1000 is " + sum + ".";
     }
 }
